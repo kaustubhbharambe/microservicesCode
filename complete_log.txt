@@ -1,0 +1,170 @@
+accountsdb   | 2026-10-12 19:03:37.422 | 2026-10-12 13:33:37+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 26.7.0-1.el9 started.
+accountsdb   | 2026-10-12 19:03:37.645 | 2026-10-12 13:33:37+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+accountsdb   | 2026-10-12 19:03:37.654 | 2026-10-12 13:33:37+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 26.7.0-1.el9 started.
+accountsdb   | 2026-10-12 19:03:37.873 | 2026-10-12 13:33:37+00:00 [Note] [Entrypoint]: Initializing database files
+accountsdb   | 2026-10-12 19:03:37.891 | 2026-10-12T13:33:37.888843Z 0 [System] [MY-015017] [Server] MySQL Server Initialization - start.
+accountsdb   | 2026-10-12 19:03:37.891 | 2026-10-12T13:33:37.890108Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 26.7.0) initializing of server in progress as process 80
+accountsdb   | 2026-10-12 19:03:38.128 | 2026-10-12T13:33:38.128130Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+cardsdb      | 2026-10-12 19:03:38.541 | 2026-10-12 13:33:38+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 26.7.0-1.el9 started.
+loansdb      | 2026-10-12 19:03:38.782 | 2026-10-12 13:33:38+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 26.7.0-1.el9 started.
+cardsdb      | 2026-10-12 19:03:38.807 | 2026-10-12 13:33:38+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+cardsdb      | 2026-10-12 19:03:38.818 | 2026-10-12 13:33:38+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 26.7.0-1.el9 started.
+configserver | 2026-10-12 19:03:38.957 | 
+configserver | 2026-10-12 19:03:38.957 |   .   ____          _            __ _ _
+configserver | 2026-10-12 19:03:38.957 |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+configserver | 2026-10-12 19:03:38.957 | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+configserver | 2026-10-12 19:03:38.957 |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+configserver | 2026-10-12 19:03:38.957 |   '  |____| .__|_| |_|_| |_\__, | / / / /
+configserver | 2026-10-12 19:03:38.957 |  =========|_|==============|___/=/_/_/_/
+configserver | 2026-10-12 19:03:38.957 | 
+configserver | 2026-10-12 19:03:38.957 |  :: Spring Boot ::                (v4.0.0)
+configserver | 2026-10-12 19:03:38.957 | 
+configserver | 2026-10-12 19:03:39.044 | 2026-10-12T13:33:39.042Z  INFO 1 --- [configserver] [           main] c.e.c.ConfigserverApplication            : Starting ConfigserverApplication using Java 25.0.4.1 with PID 1 (/app/classes started by root in /)
+configserver | 2026-10-12 19:03:39.046 | 2026-10-12T13:33:39.045Z  INFO 1 --- [configserver] [           main] c.e.c.ConfigserverApplication            : The following 1 profile is active: "git"
+loansdb      | 2026-10-12 19:03:39.087 | 2026-10-12 13:33:39+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+cardsdb      | 2026-10-12 19:03:39.098 | 2026-10-12 13:33:39+00:00 [Note] [Entrypoint]: Initializing database files
+loansdb      | 2026-10-12 19:03:39.101 | 2026-10-12 13:33:39+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 26.7.0-1.el9 started.
+cardsdb      | 2026-10-12 19:03:39.123 | 2026-10-12T13:33:39.119373Z 0 [System] [MY-015017] [Server] MySQL Server Initialization - start.
+cardsdb      | 2026-10-12 19:03:39.123 | 2026-10-12T13:33:39.120971Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 26.7.0) initializing of server in progress as process 80
+cardsdb      | 2026-10-12 19:03:39.318 | 2026-10-12T13:33:39.318455Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+loansdb      | 2026-10-12 19:03:39.400 | 2026-10-12 13:33:39+00:00 [Note] [Entrypoint]: Initializing database files
+loansdb      | 2026-10-12 19:03:39.421 | 2026-10-12T13:33:39.418484Z 0 [System] [MY-015017] [Server] MySQL Server Initialization - start.
+loansdb      | 2026-10-12 19:03:39.421 | 2026-10-12T13:33:39.419809Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 26.7.0) initializing of server in progress as process 80
+loansdb      | 2026-10-12 19:03:39.683 | 2026-10-12T13:33:39.683253Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+configserver | 2026-10-12 19:03:40.078 | 2026-10-12T13:33:40.078Z  INFO 1 --- [configserver] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c2769480-8bec-3863-b46d-b714edf8edf9
+configserver | 2026-10-12 19:03:40.348 | 2026-10-12T13:33:40.347Z  INFO 1 --- [configserver] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8071 (http)
+configserver | 2026-10-12 19:03:40.359 | 2026-10-12T13:33:40.358Z  INFO 1 --- [configserver] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+configserver | 2026-10-12 19:03:40.359 | 2026-10-12T13:33:40.359Z  INFO 1 --- [configserver] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+configserver | 2026-10-12 19:03:40.402 | 2026-10-12T13:33:40.401Z  INFO 1 --- [configserver] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1275 ms
+configserver | 2026-10-12 19:03:47.075 | 2026-10-12T13:33:47.074Z  INFO 1 --- [configserver] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+configserver | 2026-10-12 19:03:47.134 | 2026-10-12T13:33:47.133Z  INFO 1 --- [configserver] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8071 (http) with context path '/'
+configserver | 2026-10-12 19:03:47.147 | 2026-10-12T13:33:47.146Z  INFO 1 --- [configserver] [           main] c.e.c.ConfigserverApplication            : Started ConfigserverApplication in 8.68 seconds (process running for 9.151)
+accountsdb   | 2026-10-12 19:03:54.989 | 2026-10-12T13:33:54.989607Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+cardsdb      | 2026-10-12 19:03:57.779 | 2026-10-12T13:33:57.778807Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+loansdb      | 2026-10-12 19:03:57.848 | 2026-10-12T13:33:57.847754Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+accountsdb   | 2026-10-12 19:05:36.642 | 2026-10-12T13:35:36.642212Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+cardsdb      | 2026-10-12 19:05:38.095 | 2026-10-12T13:35:38.094851Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+loansdb      | 2026-10-12 19:05:41.800 | 2026-10-12T13:35:41.800676Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+accountsdb   | 2026-10-12 19:07:07.202 | 2026-10-12T13:37:07.202607Z 0 [System] [MY-015018] [Server] MySQL Server Initialization - end.
+accountsdb   | 2026-10-12 19:07:07.268 | 2026-10-12 13:37:07+00:00 [Note] [Entrypoint]: Database files initialized
+accountsdb   | 2026-10-12 19:07:07.270 | 2026-10-12 13:37:07+00:00 [Note] [Entrypoint]: Starting temporary server
+accountsdb   | 2026-10-12 19:07:07.529 | 2026-10-12T13:37:07.286505Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+accountsdb   | 2026-10-12 19:07:07.529 | 2026-10-12T13:37:07.520126Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 26.7.0) starting as process 247
+accountsdb   | 2026-10-12 19:07:07.529 | 2026-10-12T13:37:07.520141Z 0 [System] [MY-015603] [Server] MySQL Server has access to 16 logical CPUs.
+accountsdb   | 2026-10-12 19:07:07.529 | 2026-10-12T13:37:07.520152Z 0 [System] [MY-015603] [Server] MySQL Server has access to 16729595904 bytes of physical memory.
+accountsdb   | 2026-10-12 19:07:07.619 | 2026-10-12T13:37:07.618792Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+loansdb      | 2026-10-12 19:07:08.422 | 2026-10-12T13:37:08.421981Z 0 [System] [MY-015018] [Server] MySQL Server Initialization - end.
+loansdb      | 2026-10-12 19:07:08.492 | 2026-10-12 13:37:08+00:00 [Note] [Entrypoint]: Database files initialized
+loansdb      | 2026-10-12 19:07:08.494 | 2026-10-12 13:37:08+00:00 [Note] [Entrypoint]: Starting temporary server
+loansdb      | 2026-10-12 19:07:08.761 | 2026-10-12T13:37:08.515572Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+loansdb      | 2026-10-12 19:07:08.761 | 2026-10-12T13:37:08.752060Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 26.7.0) starting as process 248
+loansdb      | 2026-10-12 19:07:08.761 | 2026-10-12T13:37:08.752069Z 0 [System] [MY-015603] [Server] MySQL Server has access to 16 logical CPUs.
+loansdb      | 2026-10-12 19:07:08.761 | 2026-10-12T13:37:08.752080Z 0 [System] [MY-015603] [Server] MySQL Server has access to 16729595904 bytes of physical memory.
+loansdb      | 2026-10-12 19:07:08.845 | 2026-10-12T13:37:08.845402Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+cardsdb      | 2026-10-12 19:07:09.089 | 2026-10-12T13:37:09.089566Z 0 [System] [MY-015018] [Server] MySQL Server Initialization - end.
+cardsdb      | 2026-10-12 19:07:09.160 | 2026-10-12 13:37:09+00:00 [Note] [Entrypoint]: Database files initialized
+cardsdb      | 2026-10-12 19:07:09.162 | 2026-10-12 13:37:09+00:00 [Note] [Entrypoint]: Starting temporary server
+cardsdb      | 2026-10-12 19:07:09.420 | 2026-10-12T13:37:09.178672Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+cardsdb      | 2026-10-12 19:07:09.420 | 2026-10-12T13:37:09.410739Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 26.7.0) starting as process 250
+cardsdb      | 2026-10-12 19:07:09.420 | 2026-10-12T13:37:09.410754Z 0 [System] [MY-015603] [Server] MySQL Server has access to 16 logical CPUs.
+cardsdb      | 2026-10-12 19:07:09.420 | 2026-10-12T13:37:09.410765Z 0 [System] [MY-015603] [Server] MySQL Server has access to 16729595904 bytes of physical memory.
+cardsdb      | 2026-10-12 19:07:09.509 | 2026-10-12T13:37:09.508864Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+accountsdb   | 2026-10-12 19:07:22.701 | 2026-10-12T13:37:22.701087Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+loansdb      | 2026-10-12 19:07:25.249 | 2026-10-12T13:37:25.248926Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+cardsdb      | 2026-10-12 19:07:26.144 | 2026-10-12T13:37:26.144198Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+accountsdb   | 2026-10-12 19:07:35.005 | 2026-10-12T13:37:35.005622Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+accountsdb   | 2026-10-12 19:07:35.006 | 2026-10-12T13:37:35.005700Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+accountsdb   | 2026-10-12 19:07:35.006 | 2026-10-12T13:37:35.005710Z 0 [Warning] [MY-015696] [Server] TLS channel 'mysql_main' is not configured to require post-quantum key exchange algorithms; future TLS sessions may use a non-post-quantum key exchange algorithm because force_pqc is disabled
+accountsdb   | 2026-10-12 19:07:35.270 | 2026-10-12T13:37:35.270618Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+accountsdb   | 2026-10-12 19:07:36.943 | 2026-10-12T13:37:36.942963Z 0 [Warning] [MY-015696] [Server] Plugin mysqlx reported: 'TLS channel 'mysqlx' is not configured to require post-quantum key exchange algorithms; future TLS sessions may use a non-post-quantum key exchange algorithm because force_pqc is disabled'
+accountsdb   | 2026-10-12 19:07:36.943 | 2026-10-12T13:37:36.943305Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+accountsdb   | 2026-10-12 19:07:36.943 | 2026-10-12T13:37:36.943428Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '26.7.0'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+accountsdb   | 2026-10-12 19:07:36.964 | 2026-10-12 13:37:36+00:00 [Note] [Entrypoint]: Temporary server started.
+accountsdb   | 2026-10-12 19:07:36.997 | '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+loansdb      | 2026-10-12 19:07:37.963 | 2026-10-12T13:37:37.962729Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+loansdb      | 2026-10-12 19:07:37.963 | 2026-10-12T13:37:37.962796Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+loansdb      | 2026-10-12 19:07:37.963 | 2026-10-12T13:37:37.962806Z 0 [Warning] [MY-015696] [Server] TLS channel 'mysql_main' is not configured to require post-quantum key exchange algorithms; future TLS sessions may use a non-post-quantum key exchange algorithm because force_pqc is disabled
+loansdb      | 2026-10-12 19:07:38.144 | 2026-10-12T13:37:38.143743Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+loansdb      | 2026-10-12 19:07:39.242 | 2026-10-12T13:37:39.242539Z 0 [Warning] [MY-015696] [Server] Plugin mysqlx reported: 'TLS channel 'mysqlx' is not configured to require post-quantum key exchange algorithms; future TLS sessions may use a non-post-quantum key exchange algorithm because force_pqc is disabled'
+loansdb      | 2026-10-12 19:07:39.242 | 2026-10-12T13:37:39.242774Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+loansdb      | 2026-10-12 19:07:39.243 | 2026-10-12T13:37:39.242940Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '26.7.0'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+loansdb      | 2026-10-12 19:07:39.260 | 2026-10-12 13:37:39+00:00 [Note] [Entrypoint]: Temporary server started.
+loansdb      | 2026-10-12 19:07:39.288 | '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+cardsdb      | 2026-10-12 19:07:39.794 | 2026-10-12T13:37:39.794184Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+cardsdb      | 2026-10-12 19:07:39.794 | 2026-10-12T13:37:39.794230Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+cardsdb      | 2026-10-12 19:07:39.794 | 2026-10-12T13:37:39.794238Z 0 [Warning] [MY-015696] [Server] TLS channel 'mysql_main' is not configured to require post-quantum key exchange algorithms; future TLS sessions may use a non-post-quantum key exchange algorithm because force_pqc is disabled
+cardsdb      | 2026-10-12 19:07:39.974 | 2026-10-12T13:37:39.973789Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+cardsdb      | 2026-10-12 19:07:40.961 | 2026-10-12T13:37:40.961552Z 0 [Warning] [MY-015696] [Server] Plugin mysqlx reported: 'TLS channel 'mysqlx' is not configured to require post-quantum key exchange algorithms; future TLS sessions may use a non-post-quantum key exchange algorithm because force_pqc is disabled'
+cardsdb      | 2026-10-12 19:07:40.961 | 2026-10-12T13:37:40.961765Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+cardsdb      | 2026-10-12 19:07:40.961 | 2026-10-12T13:37:40.961921Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '26.7.0'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+cardsdb      | 2026-10-12 19:07:40.984 | 2026-10-12 13:37:40+00:00 [Note] [Entrypoint]: Temporary server started.
+cardsdb      | 2026-10-12 19:07:41.016 | '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+accountsdb   | 2026-10-12 19:07:47.974 | 2026-10-12 13:37:47+00:00 [Note] [Entrypoint]: Creating database accountsdb
+accountsdb   | 2026-10-12 19:07:48.547 | 
+accountsdb   | 2026-10-12 19:07:48.549 | 2026-10-12 13:37:48+00:00 [Note] [Entrypoint]: Stopping temporary server
+accountsdb   | 2026-10-12 19:07:48.557 | 2026-10-12T13:37:48.557393Z 13 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 26.7.0).
+loansdb      | 2026-10-12 19:07:52.230 | 2026-10-12 13:37:52+00:00 [Note] [Entrypoint]: Creating database loansdb
+loansdb      | 2026-10-12 19:07:52.705 | 
+loansdb      | 2026-10-12 19:07:52.707 | 2026-10-12 13:37:52+00:00 [Note] [Entrypoint]: Stopping temporary server
+loansdb      | 2026-10-12 19:07:52.714 | 2026-10-12T13:37:52.713976Z 14 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 26.7.0).
+cardsdb      | 2026-10-12 19:07:56.353 | 2026-10-12 13:37:56+00:00 [Note] [Entrypoint]: Creating database cardsdb
+cardsdb      | 2026-10-12 19:07:56.704 | 
+cardsdb      | 2026-10-12 19:07:56.706 | 2026-10-12 13:37:56+00:00 [Note] [Entrypoint]: Stopping temporary server
+cardsdb      | 2026-10-12 19:07:56.713 | 2026-10-12T13:37:56.712817Z 14 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 26.7.0).
+accountsdb   | 2026-10-12 19:07:59.461 | 2026-10-12T13:37:59.461321Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 26.7.0)  MySQL Community Server - GPL.
+accountsdb   | 2026-10-12 19:07:59.461 | 2026-10-12T13:37:59.461354Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+accountsdb   | 2026-10-12 19:07:59.561 | 2026-10-12 13:37:59+00:00 [Note] [Entrypoint]: Temporary server stopped
+accountsdb   | 2026-10-12 19:07:59.561 | 
+accountsdb   | 2026-10-12 19:07:59.563 | 2026-10-12 13:37:59+00:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.
+accountsdb   | 2026-10-12 19:07:59.563 | 
+accountsdb   | 2026-10-12 19:07:59.815 | 2026-10-12T13:37:59.580043Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+accountsdb   | 2026-10-12 19:07:59.815 | 2026-10-12T13:37:59.813502Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 26.7.0) starting as process 1
+accountsdb   | 2026-10-12 19:07:59.815 | 2026-10-12T13:37:59.813517Z 0 [System] [MY-015603] [Server] MySQL Server has access to 16 logical CPUs.
+accountsdb   | 2026-10-12 19:07:59.815 | 2026-10-12T13:37:59.813529Z 0 [System] [MY-015603] [Server] MySQL Server has access to 16729595904 bytes of physical memory.
+accountsdb   | 2026-10-12 19:07:59.847 | 2026-10-12T13:37:59.847051Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+loansdb      | 2026-10-12 19:08:00.599 | 2026-10-12T13:38:00.599009Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 26.7.0)  MySQL Community Server - GPL.
+loansdb      | 2026-10-12 19:08:00.599 | 2026-10-12T13:38:00.599042Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+loansdb      | 2026-10-12 19:08:00.717 | 2026-10-12 13:38:00+00:00 [Note] [Entrypoint]: Temporary server stopped
+loansdb      | 2026-10-12 19:08:00.717 | 
+loansdb      | 2026-10-12 19:08:00.719 | 2026-10-12 13:38:00+00:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.
+loansdb      | 2026-10-12 19:08:00.719 | 
+loansdb      | 2026-10-12 19:08:00.972 | 2026-10-12T13:38:00.734452Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+loansdb      | 2026-10-12 19:08:00.972 | 2026-10-12T13:38:00.969673Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 26.7.0) starting as process 1
+loansdb      | 2026-10-12 19:08:00.972 | 2026-10-12T13:38:00.969700Z 0 [System] [MY-015603] [Server] MySQL Server has access to 16 logical CPUs.
+loansdb      | 2026-10-12 19:08:00.972 | 2026-10-12T13:38:00.969727Z 0 [System] [MY-015603] [Server] MySQL Server has access to 16729595904 bytes of physical memory.
+loansdb      | 2026-10-12 19:08:01.007 | 2026-10-12T13:38:01.007160Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+cardsdb      | 2026-10-12 19:08:02.401 | 2026-10-12T13:38:02.400929Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 26.7.0)  MySQL Community Server - GPL.
+cardsdb      | 2026-10-12 19:08:02.401 | 2026-10-12T13:38:02.400970Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+cardsdb      | 2026-10-12 19:08:02.715 | 2026-10-12 13:38:02+00:00 [Note] [Entrypoint]: Temporary server stopped
+cardsdb      | 2026-10-12 19:08:02.716 | 
+cardsdb      | 2026-10-12 19:08:02.718 | 2026-10-12 13:38:02+00:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.
+cardsdb      | 2026-10-12 19:08:02.718 | 
+cardsdb      | 2026-10-12 19:08:02.972 | 2026-10-12T13:38:02.733626Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+cardsdb      | 2026-10-12 19:08:02.972 | 2026-10-12T13:38:02.970307Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 26.7.0) starting as process 1
+cardsdb      | 2026-10-12 19:08:02.972 | 2026-10-12T13:38:02.970318Z 0 [System] [MY-015603] [Server] MySQL Server has access to 16 logical CPUs.
+cardsdb      | 2026-10-12 19:08:02.972 | 2026-10-12T13:38:02.970329Z 0 [System] [MY-015603] [Server] MySQL Server has access to 16729595904 bytes of physical memory.
+cardsdb      | 2026-10-12 19:08:03.039 | 2026-10-12T13:38:03.038863Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+accountsdb   | 2026-10-12 19:08:19.161 | 2026-10-12T13:38:19.160963Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+loansdb      | 2026-10-12 19:08:20.783 | 2026-10-12T13:38:20.782977Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+cardsdb      | 2026-10-12 19:08:25.358 | 2026-10-12T13:38:25.358077Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+accountsdb   | 2026-10-12 19:08:31.517 | 2026-10-12T13:38:31.516714Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+accountsdb   | 2026-10-12 19:08:31.517 | 2026-10-12T13:38:31.516763Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+accountsdb   | 2026-10-12 19:08:31.517 | 2026-10-12T13:38:31.516782Z 0 [Warning] [MY-015696] [Server] TLS channel 'mysql_main' is not configured to require post-quantum key exchange algorithms; future TLS sessions may use a non-post-quantum key exchange algorithm because force_pqc is disabled
+accountsdb   | 2026-10-12 19:08:32.194 | 2026-10-12T13:38:32.194457Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+accountsdb   | 2026-10-12 19:08:34.386 | 2026-10-12T13:38:34.386036Z 0 [Warning] [MY-015696] [Server] Plugin mysqlx reported: 'TLS channel 'mysqlx' is not configured to require post-quantum key exchange algorithms; future TLS sessions may use a non-post-quantum key exchange algorithm because force_pqc is disabled'
+accountsdb   | 2026-10-12 19:08:34.386 | 2026-10-12T13:38:34.386317Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+accountsdb   | 2026-10-12 19:08:34.386 | 2026-10-12T13:38:34.386395Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '26.7.0'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+loansdb      | 2026-10-12 19:08:34.891 | 2026-10-12T13:38:34.891372Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+loansdb      | 2026-10-12 19:08:34.891 | 2026-10-12T13:38:34.891416Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+loansdb      | 2026-10-12 19:08:34.891 | 2026-10-12T13:38:34.891424Z 0 [Warning] [MY-015696] [Server] TLS channel 'mysql_main' is not configured to require post-quantum key exchange algorithms; future TLS sessions may use a non-post-quantum key exchange algorithm because force_pqc is disabled
+loansdb      | 2026-10-12 19:08:35.356 | 2026-10-12T13:38:35.355998Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+loansdb      | 2026-10-12 19:08:37.267 | 2026-10-12T13:38:37.267531Z 0 [Warning] [MY-015696] [Server] Plugin mysqlx reported: 'TLS channel 'mysqlx' is not configured to require post-quantum key exchange algorithms; future TLS sessions may use a non-post-quantum key exchange algorithm because force_pqc is disabled'
+loansdb      | 2026-10-12 19:08:37.267 | 2026-10-12T13:38:37.267758Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+loansdb      | 2026-10-12 19:08:37.268 | 2026-10-12T13:38:37.267969Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '26.7.0'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+cardsdb      | 2026-10-12 19:08:38.984 | 2026-10-12T13:38:38.984179Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+cardsdb      | 2026-10-12 19:08:38.984 | 2026-10-12T13:38:38.984223Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+cardsdb      | 2026-10-12 19:08:38.984 | 2026-10-12T13:38:38.984230Z 0 [Warning] [MY-015696] [Server] TLS channel 'mysql_main' is not configured to require post-quantum key exchange algorithms; future TLS sessions may use a non-post-quantum key exchange algorithm because force_pqc is disabled
+cardsdb      | 2026-10-12 19:08:39.147 | 2026-10-12T13:38:39.147164Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+cardsdb      | 2026-10-12 19:08:40.042 | 2026-10-12T13:38:40.041813Z 0 [Warning] [MY-015696] [Server] Plugin mysqlx reported: 'TLS channel 'mysqlx' is not configured to require post-quantum key exchange algorithms; future TLS sessions may use a non-post-quantum key exchange algorithm because force_pqc is disabled'
+cardsdb      | 2026-10-12 19:08:40.042 | 2026-10-12T13:38:40.042070Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+cardsdb      | 2026-10-12 19:08:40.042 | 2026-10-12T13:38:40.042296Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '26.7.0'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
